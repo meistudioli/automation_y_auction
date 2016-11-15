@@ -1,0 +1,21 @@
+-----------------------------
+※ Suite -「dragonMultiSpec」
+-----------------------------
+set activeMutant=off & set clearResult=off & set report=dragonMultiSpec & protractor auction.conf.js --suite dragonMultiSpec
+
+(::) failed steps (::)
+AssertionError: batch hashtag modify fail: expected false to be true
+
+
+32 scenarios (1 failed, 31 passed)
+147 steps (1 failed, 146 passed)
+Finished in 5 minutes 37 seconds
+
+
+--------------------------------------------
+32 scenarios (1 failed, 31 passed)
+147 steps (1 failed, 146 passed)
+179 assertions (1 failed, 178 passed)
+
+Total tests finished in 5 minutes 37 seconds
+--------------------------------------------

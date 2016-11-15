@@ -1,0 +1,76 @@
+[10:54:17] I/hosted - Using the selenium server at http://localhost:4444/wd/hub
+[10:54:17] I/launcher - Running 1 instances of WebDriver
+[10:55:05] W/element - more than one element found for locator By(css selector, .specs-qty-wrap table) - the first result will be used
+[10:55:19] W/element - more than one element found for locator By(css selector, a) - the first result will be used
+[10:55:20] W/element - more than one element found for locator By(css selector, .search-select a) - the first result will be used
+[10:55:23] W/element - more than one element found for locator By(css selector, a) - the first result will be used
+[10:55:25] W/element - more than one element found for locator By(css selector, .search-select a) - the first result will be used
+[10:55:29] W/element - more than one element found for locator By(css selector, a) - the first result will be used
+[10:55:30] W/element - more than one element found for locator By(css selector, .search-select a) - the first result will be used
+[10:55:32] W/element - more than one element found for locator By(css selector, .name a) - the first result will be used
+[10:55:32] W/element - more than one element found for locator By(css selector, .name a) - the first result will be used
+[10:55:35] W/element - more than one element found for locator By(css selector, .name a) - the first result will be used
+[10:55:40] W/element - more than one element found for locator By(css selector, a) - the first result will be used
+[10:55:41] W/element - more than one element found for locator By(css selector, .search-select a) - the first result will be used
+[10:55:43] W/element - more than one element found for locator By(css selector, .price input) - the first result will be used
+[10:55:43] W/element - more than one element found for locator By(css selector, .price input) - the first result will be used
+[10:55:47] W/element - more than one element found for locator By(css selector, .price input) - the first result will be used
+[10:55:47] W/element - more than one element found for locator By(css selector, .price input) - the first result will be used
+[10:55:50] W/element - more than one element found for locator By(css selector, a) - the first result will be used
+[10:55:52] W/element - more than one element found for locator By(css selector, .search-select a) - the first result will be used
+[10:55:54] W/element - more than one element found for locator By(css selector, .specs[data-set="1"] input) - the first result will be used
+[10:55:55] W/element - more than one element found for locator By(css selector, .specs[data-set="1"] input) - the first result will be used
+[10:55:55] W/element - more than one element found for locator By(css selector, .specs[data-set="1"] input) - the first result will be used
+[10:55:58] W/element - more than one element found for locator By(css selector, .specs-qty-wrap table.show .col-qty .qty) - the first result will be used
+[10:56:00] W/element - more than one element found for locator By(css selector, .specs[data-set="1"] input) - the first result will be used
+[10:56:00] W/element - more than one element found for locator By(css selector, .specs[data-set="1"] input) - the first result will be used
+[10:56:03] W/element - more than one element found for locator By(css selector, .specs-qty-wrap table.show .col-qty .qty) - the first result will be used
+[10:56:09] W/element - more than one element found for locator By(css selector, a) - the first result will be used
+[10:56:10] W/element - more than one element found for locator By(css selector, .search-select a) - the first result will be used
+[10:56:27] W/element - more than one element found for locator By(css selector, section.mod-info .item-images img) - the first result will be used
+[10:56:29] W/element - more than one element found for locator By(css selector, section.mod-info .item-images img) - the first result will be used
+[10:56:29] W/element - more than one element found for locator By(css selector, section.mod-info .item-images img) - the first result will be used
+[10:56:55] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:56:56] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:57:02] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:57:03] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:57:19] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:57:20] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+pickShipType: .spc
+[10:57:52] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:57:52] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:58:09] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:58:09] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+pickShipType: .sfc
+[10:58:48] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:58:49] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:59:05] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+[10:59:05] W/element - more than one element found for locator By(css selector, .spec) - the first result will be used
+pickShipType: .s7c
+[10:59:41] W/element - more than one element found for locator By(css selector, .search-select a) - the first result will be used
+Failures:
+
+1) Scenario: [商品管理][列表][直購品][hashtag]批次修改 hashtag 可成功 - features\dragon\dragonMultiSpec.feature:81
+   Step: Then batch modify hashtag must correct - features\dragon\dragonMultiSpec.feature:89
+   Step Definition: features\steps\sd_merchandiseManagement_itemList.js:268
+   Message:
+     AssertionError: batch hashtag modify fail: expected false to be true
+         at doAsserterAsyncAndAddThen (C:\Users\mei\AppData\Roaming\npm\node_modules\chai-as-promised\lib\chai-as-promised.js:293:29)
+         at .<anonymous> (C:\Users\mei\AppData\Roaming\npm\node_modules\chai-as-promised\lib\chai-as-promised.js:283:21)
+         at get (C:\Users\mei\AppData\Roaming\npm\node_modules\chai\lib\chai\utils\overwriteProperty.js:50:37)
+         at C:\WWW\automation\features\steps\sd_merchandiseManagement_itemList.js:282:72
+         at ManagedPromise.invokeCallback_ (C:\Users\mei\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1379:14)
+         at TaskQueue.execute_ (C:\Users\mei\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2913:14)
+         at TaskQueue.executeNext_ (C:\Users\mei\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2896:21)
+         at asyncRun (C:\Users\mei\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2775:27)
+         at C:\Users\mei\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:639:7
+         at process._tickCallback (internal/process/next_tick.js:103:7)
+
+32 scenarios (1 failed, 31 passed)
+147 steps (1 failed, 146 passed)
+5m22.246s
+[10:59:54] I/launcher - 0 instance(s) of WebDriver still running
+[10:59:54] I/launcher - chrome #01 failed 1 test(s)
+[10:59:54] I/launcher - overall: 1 failed spec(s)
+[10:59:54] E/launcher - Process exited with error code 1
+

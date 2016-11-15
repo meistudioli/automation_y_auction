@@ -1,0 +1,167 @@
+[
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@CREATEBASIC"
+	},
+	{
+		"feature": "features/merchandiseManagement_itemList.feature",
+		"tags": "@C39316",
+		"note": "[管理商品][列表][商品][操作][上架中][直購品][下架]click確定"
+	},
+	{
+		"feature": "features/merchandiseManagement_itemList.feature",
+		"tags": "@C39352",
+		"note": "[管理商品][列表][商品][操作][已下架][直購品][沒賣出][上架]click確定"
+	},
+	{
+		"feature": "features/merchandiseManagement_itemList.feature",
+		"tags": "@C4796513",
+		"note": "[商品管理][列表][直購品][標題][編輯][上架中] 標題可編輯成功"
+	},
+	{
+		"feature": "features/merchandiseManagement_itemList.feature",
+		"tags": "@C4796565",
+		"note": "[商品管理][列表][直購品][金額][促銷價][編輯][上架中] 金額可編輯成功"
+	},
+	{
+		"feature": "features/merchandiseManagement_itemList.feature",
+		"tags": "@C4797511",
+		"note": "[商品管理][列表][直購品][庫存][編輯][上架中] 庫存可編輯成功"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@HASHTAG",
+		"note": "[商品頁][hashtag]顯示物件的 hashtag"
+	},
+	{
+		"feature": "features/merchandiseManagement_itemList.feature",
+		"tags": "@BATCHHATG",
+		"note": "[商品管理][列表][直購品][hashtag]批次修改 hashtag 可成功"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@C3712",
+		"note": "[商品頁]Header"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@C3713",
+		"note": "[商品頁]Footer"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@GA",
+		"note": "[商品頁]Google Analytics beacon sending"
+	},
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@C3790",
+		"note": "[商品頁][商品資訊][商品標題]顯示"
+	},
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@C3792",
+		"note": "[商品頁][商品資訊][商品副標題]顯示"
+	},	
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@C3796",
+		"note": "[商品頁][商品資訊][原價][無促銷價]顯示定價"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@PAYTYPECHECK",
+		"note": "[商品頁][付款方式][現金付款資訊揭露]"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@C4115",
+		"note": "[商品頁][Navigation][商品資訊]顯示上傳的第1~9張圖"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@LIGHTBOX",
+		"note": "[商品頁]LIGHTBOX"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@C4106",
+		"note": "[商品頁][Navigation][商品資訊]賣家設的商品描述(文字)"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@C3826",
+		"note": "[商品頁][商品資訊][規格][規格一][圖片][有綁商品圖]點選規格連動預覽模組"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@C3735",
+		"note": "[商品頁][商品圖][主圖區][主圖>1400x1400]放大圖顯示"
+	},
+	{
+		"feature": "features/itemPage_buyNow.feature",
+		"tags": "@C4796099",
+		"note": "[商品頁][Navigation][商品資訊]影片播放"
+	},
+	{
+		"feature": "features/itemQna.feature",
+		"tags": "@C598735FAKE",
+		"note": "[買家動態][商品問答][列表][操作][已回覆]顯示已回覆"
+	},
+	{
+		"feature": "features/favoriteStore.feature",
+		"tags": "@C598882",
+		"note": "[最愛賣家][刪除]成功執行刪除"
+	},
+	{
+		"feature": "features/watchList.feature",
+		"tags": "@C598800",
+		"note": "[追蹤商品][直購商品][刪除]成功執行刪除"
+	},
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@C3963",
+		"note": "[商品頁][加入購物車][已登入]click button"
+	},
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@BUYMULTISPECITEMTHUSCOD"
+	},
+	{
+		"feature": "features/orderList_seller.feature",
+		"tags": "@CODEXECUTESHIPMENT",
+		"note": "[訂單列表][尚未出貨][COD] 點擊訂單操作之執行出貨"
+	},
+	{
+		"feature": "features/orderList_buyer.feature",
+		"tags": "@RATINGBUYER2SELLER1",
+		"note": "[訂單列表][給賣家評價] 點擊訂單操作之給賣家評價且成功給評"
+	},
+	{
+		"feature": "features/orderList_seller.feature",
+		"tags": "@RATINGSELLER2BUYER",
+		"note": "[訂單列表][給買家評價] 點擊訂單操作之給買家評價且成功給評"
+	},
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@BUYMULTISPECITEMTHUSFAMILYMART"
+	},
+	{
+		"feature": "features/orderList_seller.feature",
+		"tags": "@C4627962",
+		"note": "[取消訂單][其它原因取消]成功取消"
+	},
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@BUYMULTISPECITEM711"
+	},
+	{
+		"feature": "features/orderList_seller.feature",
+		"tags": "@C4627962",
+		"note": "[取消訂單][其它原因取消]成功取消"
+	},
+	{
+		"feature": "features/flowMultiSpec.feature",
+		"tags": "@OFFSHELFBASIC"
+	}
+]

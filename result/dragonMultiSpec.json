@@ -1,0 +1,733 @@
+[
+  {
+    "description": "create a basic multi-spec item & plug data in shadow.ITEM.buyNow.basic",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 58239165401
+  },
+  {
+    "description": "[管理商品][列表][商品][操作][上架中][直購品][下架]click確定",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 4440341891
+  },
+  {
+    "description": "[管理商品][列表][商品][操作][已下架][直購品][沒賣出][上架]click確定",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 5951019805
+  },
+  {
+    "description": "[商品管理][列表][直購品][標題][編輯][上架中] 標題可編輯成功",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 10128715327
+  },
+  {
+    "description": "[商品管理][列表][直購品][金額][促銷價][編輯][上架中] 金額可編輯成功",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 10682728094
+  },
+  {
+    "description": "[商品管理][列表][直購品][庫存][編輯][上架中] 庫存可編輯成功",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 14805891511
+  },
+  {
+    "description": "[商品頁][hashtag]顯示物件的 hashtag",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 4027050355
+  },
+  {
+    "description": "[商品管理][列表][直購品][hashtag]批次修改 hashtag 可成功",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": false,
+        "errorMsg": "batch hashtag modify fail: expected false to be true",
+        "stackTrace": "AssertionError: batch hashtag modify fail: expected false to be true\n    at doAsserterAsyncAndAddThen (C:\\Users\\mei\\AppData\\Roaming\\npm\\node_modules\\chai-as-promised\\lib\\chai-as-promised.js:293:29)\n    at .<anonymous> (C:\\Users\\mei\\AppData\\Roaming\\npm\\node_modules\\chai-as-promised\\lib\\chai-as-promised.js:283:21)\n    at get (C:\\Users\\mei\\AppData\\Roaming\\npm\\node_modules\\chai\\lib\\chai\\utils\\overwriteProperty.js:50:37)\n    at C:\\WWW\\automation\\features\\steps\\sd_merchandiseManagement_itemList.js:282:72\n    at ManagedPromise.invokeCallback_ (C:\\Users\\mei\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1379:14)\n    at TaskQueue.execute_ (C:\\Users\\mei\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2913:14)\n    at TaskQueue.executeNext_ (C:\\Users\\mei\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2896:21)\n    at asyncRun (C:\\Users\\mei\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2775:27)\n    at C:\\Users\\mei\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:639:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)"
+      }
+    ],
+    "duration": 13953452481
+  },
+  {
+    "description": "[商品頁]Header",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 3711861126
+  },
+  {
+    "description": "[商品頁]Footer",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 124302250
+  },
+  {
+    "description": "[商品頁]Google Analytics beacon sending",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 40464055
+  },
+  {
+    "description": "[商品頁][商品資訊][商品標題]顯示",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 42940971
+  },
+  {
+    "description": "[商品頁][商品資訊][商品副標題]顯示",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 44930572
+  },
+  {
+    "description": "[商品頁][商品資訊][原價][無促銷價]顯示定價",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 51098617
+  },
+  {
+    "description": "[商品頁][付款方式][銀聯卡資訊揭露]",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 160528408
+  },
+  {
+    "description": "[商品頁][Navigation][商品資訊]顯示上傳的第1~9張圖",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 149604717
+  },
+  {
+    "description": "[商品頁]LIGHTBOX",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1645759819
+  },
+  {
+    "description": "[商品頁][Navigation][商品資訊]賣家設的商品描述(文字)",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 159765765
+  },
+  {
+    "description": "[商品頁][商品資訊][規格][規格一][圖片][有綁商品圖]點選規格連動預覽模組",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 866083117
+  },
+  {
+    "description": "[商品頁][商品圖][主圖區][主圖>1400x1400]放大圖顯示",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 319283802
+  },
+  {
+    "description": "[商品頁][Navigation][商品資訊]影片播放",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 3283747740
+  },
+  {
+    "description": "[最愛賣家][刪除]成功執行刪除",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 10412278334
+  },
+  {
+    "description": "[追蹤商品][直購商品][刪除]成功執行刪除",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 7210840669
+  },
+  {
+    "description": "[商品頁][加入購物車][已登入]click button",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 7165746243
+  },
+  {
+    "description": "buy item through COD",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 32035505626
+  },
+  {
+    "description": "[訂單列表][尚未出貨][COD] 點擊訂單操作之執行出貨",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 6961103701
+  },
+  {
+    "description": "[訂單列表][給買家評價] 點擊訂單操作之給買家評價且成功給評",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 10048984798
+  },
+  {
+    "description": "buy item through FamilyMart",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 36017697960
+  },
+  {
+    "description": "[取消訂單][其它原因取消]成功取消",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 20526414580
+  },
+  {
+    "description": "buy item through 711",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 34340679614
+  },
+  {
+    "description": "[取消訂單][其它原因取消]成功取消",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 21545062044
+  },
+  {
+    "description": "offshelf the basic multi-spec item & remove data from shadowData.ITEM.buyNow",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "duration": 3152769959
+  }
+]
